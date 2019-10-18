@@ -26,6 +26,15 @@ select {
   line-height: 1.4;
 }
 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  html,
+  button,
+  input,
+  select {
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+}
+
 body {
   color: #292929;
   padding: 1.5em;
@@ -91,4 +100,26 @@ img {
 .centered {
   text-align: center;
   flex-grow: 1;
+}
+
+/* Animation */
+.cursor {
+  animation: cursor-blink alternate 0.75s infinite;
+  will-change: color;
+}
+@-moz-keyframes cursor-blink {
+  from {
+    color: black;
+  }
+  to {
+    color: transparent;
+  }
+}
+@-webkit-keyframes cursor-blink {
+  from {
+    color: black;
+  }
+  to {
+    color: transparent;
+  }
 }
