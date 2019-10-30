@@ -154,6 +154,8 @@ img {
   .titlecard {
     /* decrease text shadow on high-DPI retina like screens */
     text-shadow: -0.5px -0.5px 1px red, 0.5px 0.5px 1px blue;
+    /* increase blur to compensate for high-DPI */
+    filter: blur(0.75px);
   }
 }
 
