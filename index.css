@@ -37,7 +37,8 @@ select {
 
 body {
   color: #292929;
-  padding: 1.5em;
+  padding: 0 1.5em;
+  margin: 0;
 }
 
 ::selection {
@@ -89,11 +90,15 @@ img {
 
 /* ==== aesthetics ========================================================== */
 .aesthetics {
-  margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
   height: 100vh;
+}
+
+.fullbleed {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
 }
 
 .centered {
@@ -104,21 +109,57 @@ img {
 /* Animation */
 .cursor {
   animation: cursor-blink alternate 0.75s infinite;
-  will-change: color;
+  will-change: opacity;
 }
 @-moz-keyframes cursor-blink {
   from {
-    color: black;
+    opacity: 0;
   }
   to {
-    color: transparent;
+    opacity: 1;
   }
 }
 @-webkit-keyframes cursor-blink {
   from {
-    color: black;
+    opacity: 0;
   }
   to {
-    color: transparent;
+    opacity: 1;
+  }
+}
+
+.dark {
+  background: #111;
+  color: rgba(222, 231, 236, 1);
+}
+.light {
+  background: white;
+  color: rgba(5, 3, 6, 1);
+}
+
+.titlecard {
+  font-weight: 600;
+  font-size: 7em;
+  font-size: calc(10vw + 16px);
+  padding: 2em 0.1875em;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 2px red, 1px 1px 2px blue;
+  filter: blur(0.25px);
+  letter-spacing: -0.01em;
+  word-break: break-word;
+  -webkit-font-smoothing: none;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .titlecard {
+    /* decrease text shadow on high-DPI retina like screens */
+    text-shadow: -0.5px -0.5px 1px red, 0.5px 0.5px 1px blue;
+  }
+}
+
+@supports (-webkit-font-smoothing: none) {
+  .titlecard {
+    /* increase blue in Chrome */
+    filter: blur(1px);
   }
 }
