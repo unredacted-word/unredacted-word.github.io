@@ -1,0 +1,104 @@
+:root {
+  --primary-text-color: #292929;
+  --light-text-color: darkgray;
+  --text-selection-color: rgba(254, 231, 0, 0.9);
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--text-selection-color);
+  color: var(--primary-text-color);
+}
+
+html,
+button,
+input,
+select {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-smooth: always; */
+
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+  text-rendering: optimizeLegibility;
+
+  /* Normalize font stack. */
+  font-family: system-sans-serif, system-gothic, "Apple Color Emoji",
+    "Segoe UI Emoji", sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  html,
+  button,
+  input,
+  select {
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+}
+
+body {
+  color: #292929;
+  padding: 0 1.5em;
+  margin: 0;
+}
+
+a {
+  color: #292929;
+}
+a:hover {
+  color: #0000cc;
+}
+
+hr {
+  border: none;
+  border-top: 2pt solid black;
+  border-bottom: 1pt solid black;
+  height: 4pt;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+  font-weight: 900;
+  letter-spacing: -.025em;
+  text-transform: uppercase;
+}
+
+code,
+pre {
+  font-family: monospace;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+p {
+  hyphens: auto;
+}
+
+cite {
+  display: block;
+  font-style: normal;
+}
+blockquote cite {
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}
+

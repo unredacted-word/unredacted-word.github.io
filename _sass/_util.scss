@@ -1,0 +1,146 @@
+/**
+ * t-visuallyhidden
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.t-visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.t-visuallyhidden.focusable:active,
+.t-visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.layout-default {
+  max-width: 60rem; /* 960 = 16 * 60 */
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.byline,
+.byline .author,
+.published {
+  color: var(--light-text-color);
+}
+
+.aesthetics {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.fullbleed {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+/* Animation */
+.cursor {
+  animation: cursor-blink alternate 0.75s infinite;
+  will-change: opacity;
+}
+@-moz-keyframes cursor-blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes cursor-blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.dark {
+  background: #111;
+  color: rgba(222, 231, 236, 1);
+}
+.light {
+  background: white;
+  color: rgba(5, 3, 6, 1);
+}
+
+.footer {
+  border-top: 1pt solid var(--light-text-color);
+  margin: 2em 0;
+}
+.footer .copyright {
+  margin-bottom: 0;
+}
+.footer .links {
+  margin-top: 0;
+}
+.footer,
+.footer a,
+.article-footer,
+.article-footer a {
+  font-size: 0.875rem;
+  color: var(--light-text-color);
+}
+
+.license,
+.license a {
+  color: var(--light-text-color);
+}
+
+.titlecard {
+  font-weight: 600;
+  font-size: 7em;
+  font-size: calc(10vw + 16px);
+  padding: 2em 0.1875em;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 2px red, 1px 1px 2px blue;
+  filter: blur(0.25px);
+  letter-spacing: -0.01em;
+  word-break: break-word;
+  -webkit-font-smoothing: none;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .titlecard {
+    /* decrease text shadow on high-DPI retina like screens */
+    text-shadow: -0.5px -0.5px 1px red, 0.5px 0.5px 1px blue;
+    /* increase blur to compensate for high-DPI */
+    filter: blur(0.75px);
+  }
+}
+
+@supports (-webkit-font-smoothing: none) {
+  .titlecard {
+    /* increase blue in Chrome */
+    filter: blur(1px);
+  }
+}
+
+.page-home .site-header {
+  display: none;
+}

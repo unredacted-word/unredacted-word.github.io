@@ -1,0 +1,32 @@
+# Ignore OS generated files #
+.DS_Store*
+Icon?
+
+# Always-ignore these files and folders #
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swn
+*.swo
+*.swp
+._*
+*~
+
+# Vendor dependencies
+node_modules/
+
+# Jekyll specific
+_site/
+.jekyll-assets-cache/
+.sass-cache/
+.jekyll-metadata
+.ruby-version
+
+# Ignore bundler
+.bundle/
+vendor/
+
+# Environment-dependent files
+_config_local.yml

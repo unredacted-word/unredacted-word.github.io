@@ -1,0 +1,30 @@
+# Site settings
+title: Unredacted Word
+email: enquiries@unredacted-word.pub
+baseurl: ""
+url: "https://unredacted-word.pub"
+timezone: "America/New_York"
+description: "Publisher of words, code & data."
+
+
+# Build settings
+permalink: pretty
+sass:
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CNAME
+  - LICENSE
+  - README.md
+
