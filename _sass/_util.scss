@@ -141,6 +141,27 @@
   }
 }
 
+.blocktable {
+  width: 100%;
+  border: 2pt solid var(--primary-text-color);
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.blocktable th {
+  text-align: right;
+  text-transform: uppercase;
+}
+.blocktable td,
+.blocktable th {
+  padding: 1rem;
+  border: 2pt solid var(--primary-text-color);
+  vertical-align: top;
+}
+.blocktable tbody tr td:first-child,
+.blocktable tbody tr th:first-child {
+  width: 25%;
+}
+
 .page-home .site-header {
   display: none;
 }
