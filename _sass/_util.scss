@@ -142,10 +142,16 @@
 }
 
 .blocktable {
+  font-size: 0.75rem;
   width: 100%;
   border: 2pt solid var(--primary-text-color);
   border-collapse: collapse;
   table-layout: fixed;
+}
+@media (min-width: 720px) {
+  .blocktable {
+    font-size: 1rem;
+  }
 }
 .blocktable th {
   text-align: right;
@@ -156,6 +162,8 @@
   padding: 1rem;
   border: 2pt solid var(--primary-text-color);
   vertical-align: top;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .blocktable tbody tr td:first-child,
 .blocktable tbody tr th:first-child {
