@@ -1,19 +1,22 @@
 <footer class="footer">
-  <p class="copyright">
-    &copy; 2018-{{ site.time | date: '%Y' }}
-    Unredacted Word, LLC
-    (unless otherwise noted)
-  </p>
   <p class="links">
-    <a href="/feed.xml" title="RSS / Atom feed">
-      <img src="{{ site.data.uris['rss'].url }}" alt="RSS ATOM / feed"
-        height=16 width=16></a>
+    <a href="/" title="Home">Home</a>
     <a href="/about" title="About Us">About</a>
     <a href="mailto:enquiries@unredacted-word.pub" title="Email">Email</a>
     <a href="mailto:editor@unredacted-word.pub" title="Submissions">Editor</a>
     <a href="mailto:wholesale@unredacted-word.pub" title="Retail and wholesale orders">Distribution</a>
     <a href="mailto:support@unredacted-word.pub" title="Orders">Support</a>
     <a href="https://twitter.com/unredactedword"
-      rel="nofollow external noopener" title="Unredacted Word on Twitter">Twitter</a>
+      rel="nofollow external noopener" title="Unredacted Word on Twitter">
+      <img src="{{ site.data.uris['twitter'].url }}" alt="Twitter logo"
+        height=16 width=16></a>
+    <a href="/feed.xml" title="RSS / Atom feed">
+      <img src="{{ site.data.uris['rss'].url }}" alt="RSS ATOM / feed"
+        height=16 width=16></a>
+  </p>
+  <p class="copyright">
+    &copy; 2018-{{ site.time | date: '%Y' }}
+    Unredacted Word, LLC
+    (unless otherwise noted)
   </p>
 </footer>

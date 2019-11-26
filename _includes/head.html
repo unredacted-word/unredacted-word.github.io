@@ -8,7 +8,7 @@
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-  <meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#292929">
   <meta name="pocket-site-verification" content="0bc1c43af2aad681f67332abee59c3">
   <meta name="author" content="{{ site.data.authors[page.author].name | default: "editors" }}">
 
@@ -21,7 +21,7 @@
   {% if page.metaImage %}
   <meta property="og:image" content="{{ site.url }}{{ page.metaImage }}">
   {% else %}
-  <meta property="og:image" content="{{ site.url }}/apple-touch-icon.png">
+  <meta property="og:image" content="{{ site.url }}/static/logo.png">
   {% endif %}
 
   <meta property="og:image:height" content="180">
@@ -43,7 +43,7 @@
   {% if page.metaImage %}
   <meta property="twitter:image" content="{{ site.url }}{{ page.metaImage }}">
   {% else %}
-  <meta property="twitter:image" content="{{ site.url }}/apple-touch-icon.png">
+  <meta property="twitter:image" content="{{ site.url }}/static/logo.png">
   {% endif %}
   <meta name="twitter:image:height" content="512">
   <meta name="twitter:image:width" content="512">

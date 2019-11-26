@@ -93,10 +93,10 @@
   border-top: 1pt solid var(--light-text-color);
   margin: 2em 0;
 }
-.footer .copyright {
+.footer .links {
   margin-bottom: 0;
 }
-.footer .links {
+.footer .copyright {
   margin-top: 0;
 }
 .footer,
@@ -110,6 +110,33 @@
 .license,
 .license a {
   color: var(--light-text-color);
+}
+
+.sticker-assortment {
+  position: relative;
+}
+.sticker-assortment img {
+  position: absolute;
+  width: 101.5px;
+  height: 62.5px;
+}
+.sticker-assortment img:first-child {
+  transform: rotate(-12deg);
+}
+.sticker-assortment img:nth-child(2){
+  left: 2pt;
+  top: 6pt;
+  transform: rotate(5deg);
+}
+.sticker-assortment img:nth-child(3){
+  left: 3pt;
+  top: 3pt;
+  transform: rotate(4deg);
+}
+.sticker-assortment img:nth-child(4){
+  left: 0;
+  top: 0;
+  position: relative;
 }
 
 .titlecard {
@@ -170,6 +197,7 @@
   width: 25%;
 }
 
-.page-home .site-header {
+.page-home .site-header,
+.page-home .template-content .entry-title {
   display: none;
 }
