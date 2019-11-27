@@ -197,7 +197,19 @@
   width: 25%;
 }
 
+.buy-now {
+  background-color: var(--primary-text-color);
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.25rem;
+  font-size: 1rem
+}
+
 .page-home .site-header,
 .page-home .template-content .entry-title {
   display: none;
 }
+
+
