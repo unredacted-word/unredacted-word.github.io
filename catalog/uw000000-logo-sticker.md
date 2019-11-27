@@ -1,6 +1,7 @@
 ---
 title: Logo Sticker
 displayTitle: Logo sticker
+excerpt: Unredacted Word sticker, adhesive on printed paper.
 metaImage: /static/sticker-203x125.png
 ---
 
