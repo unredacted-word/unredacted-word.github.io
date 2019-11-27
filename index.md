@@ -34,12 +34,12 @@ excerpt: >
     <tr>
       <th>Image</th>
       <td>
-        <div class="sticker-assortment">
-          <img src="/static/sticker-203x125.png" alt="sticker photo">
-          <img src="/static/sticker-203x125.png" alt="sticker photo">
-          <img src="/static/sticker-203x125.png" alt="sticker photo">
-          <img src="/static/sticker-203x125.png" alt="sticker photo">
-        </div>
+        <a class="sticker-assortment" href="/catalog/uw000000-logo-sticker" title="logo sticker">
+          <img src="/static/catalog/uw000000/logo-sticker-610x376.png" alt="sticker photo">
+          <img src="/static/catalog/uw000000/logo-sticker-610x376.png" alt="sticker photo">
+          <img src="/static/catalog/uw000000/logo-sticker-610x376.png" alt="sticker photo">
+          <img src="/static/catalog/uw000000/logo-sticker-610x376.png" alt="sticker photo">
+        </a>
       </td>
     </tr>
     <tr>

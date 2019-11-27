@@ -2,7 +2,7 @@
 title: Logo Sticker
 displayTitle: Logo sticker
 excerpt: Unredacted Word sticker, adhesive on printed paper.
-metaImage: /static/sticker-203x125.png
+metaImage: /static/catalog/uw000000/logo-sticker-610x376.png
 ---
 
 
@@ -29,16 +29,24 @@ metaImage: /static/sticker-203x125.png
       <td>2" x 1.18"</td>
     </tr>
     <tr>
-      <th>Print run</th>
-      <td>50 copies</td>
-    </tr> 
+      <th>Edition</th>
+      <td>1&ordm; / 50 copies</td>
+    </tr>
     <tr>
       <th>Cost/per</th>
       <td>$1.1262</td>
-    </tr>
+    </tr> 
     <tr>
       <th>Cost</th>
       <td>$56.31</td>
+    </tr> 
+    <tr>
+      <th>Date added</th>
+      <td>November 26, 2019</td>
+    </tr>
+    <tr>
+      <th>Copyright</th>
+      <td>© 2018-2019 Unredacted Word, LLC</td>
     </tr>
     <tr>
       <th>Description</th>
@@ -51,10 +59,10 @@ metaImage: /static/sticker-203x125.png
       <th>Image</th>
       <td>
         <div class="sticker-assortment">
-          <img src="/static/sticker-203x125.png" alt="sticker photo">
-          <img src="/static/sticker-203x125.png" alt="sticker photo">
-          <img src="/static/sticker-203x125.png" alt="sticker photo">
-          <img src="/static/sticker-203x125.png" alt="sticker photo">
+          <img src="/static/catalog/uw000000/logo-sticker-610x376.png" alt="sticker photo">
+          <img src="/static/catalog/uw000000/logo-sticker-610x376.png" alt="sticker photo">
+          <img src="/static/catalog/uw000000/logo-sticker-610x376.png" alt="sticker photo">
+          <img src="/static/catalog/uw000000/logo-sticker-610x376.png" alt="sticker photo">
         </div>
       </td>
     </tr>

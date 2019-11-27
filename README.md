@@ -3,7 +3,7 @@ Site is built with [Jekyll](http://jekyllrb.com) and served with GitHub Pages.
 
 ## Requirements
 
-* Ruby 2.6.0+
+* Ruby 2.5.3
 * Bundler
 
 

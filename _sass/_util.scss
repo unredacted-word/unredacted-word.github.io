@@ -113,12 +113,15 @@
 }
 
 .sticker-assortment {
+  display: block;
   position: relative;
+  margin: 1rem;
+  padding: 1rem;
 }
 .sticker-assortment img {
   position: absolute;
-  width: 101.5px;
-  height: 62.5px;
+  width: 100%;
+  max-width: 305px;
 }
 .sticker-assortment img:first-child {
   transform: rotate(-12deg);
