@@ -1,6 +1,7 @@
 ---
 title: Success
 displayTitle: "Thank you"
+sitemap: false
 ---
 
 

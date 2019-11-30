@@ -1,6 +1,7 @@
 ---
 title: Failure
 displayTitle: "Order canceled"
+sitemap: false
 ---
 
 
