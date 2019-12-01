@@ -19,30 +19,8 @@ html,
 button,
 input,
 select {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* font-smooth: always; */
-
-  -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  -ms-text-size-adjust: none;
-  text-size-adjust: none;
-  text-rendering: optimizeLegibility;
-
-  /* Normalize font stack. */
-  font-family: system-sans-serif, system-gothic, "Apple Color Emoji",
-    "Segoe UI Emoji", sans-serif;
   font-size: 100%;
   line-height: 1.4;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  html,
-  button,
-  input,
-  select {
-    -webkit-font-smoothing: subpixel-antialiased;
-  }
 }
 
 body {
