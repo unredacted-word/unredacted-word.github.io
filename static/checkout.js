@@ -1,13 +1,19 @@
 (function() {
-  var stripe = Stripe("pk_live_MpaXLmOedfJwMREWl7zTMH3Q00M8WLyiX5");
+  let STRIPE_TEST = "pk_test_DMllmJQxpZDZd6JMtbCLH8BX00H5sIivi9";
+  let STRIPE_PROD = "pk_live_MpaXLmOedfJwMREWl7zTMH3Q00M8WLyiX5";
+  let STRIPE_KEY = document.location.host.match(/localhost/)
+    ? STRIPE_TEST
+    : STRIPE_PROD;
+  var stripe = Stripe(STRIPE_KEY);
 
-  var checkoutButton = document.getElementById(
-    "checkout-button-sku_GFlC0zzBrcHvid"
-  );
-  checkoutButton.addEventListener("click", function() {
+  window.addEventListener("click", function(el) {
+    if (!el.target.classList.contains("js-buynow")) return;
+    let target = el.target;
+    let sku = target.getAttribute("data-sku");
+    let quantity = Number.parseInt(target.getAttribute("data-quantity") || "1");
     stripe
       .redirectToCheckout({
-        items: [{ sku: "sku_GFlC0zzBrcHvid", quantity: 1 }],
+        items: [{ sku: sku, quantity: quantity }],
         successUrl: "https://unredacted-word.pub/checkout/success",
         cancelUrl: "https://unredacted-word.pub/checkout/canceled"
       })

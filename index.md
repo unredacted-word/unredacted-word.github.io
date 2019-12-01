@@ -47,7 +47,9 @@ excerpt: >
       <td>
         <button 
           class="buy-now js-buynow"
-          id="checkout-button-sku_GFlC0zzBrcHvid"
+          data-sku="sku_GFlC0zzBrcHvid"
+          data-quantity="1"
+          data-price="50¢"
           role="link">Checkout / 50¢</button>
         <div class="js-stripe-errors"></div>
       </td>
