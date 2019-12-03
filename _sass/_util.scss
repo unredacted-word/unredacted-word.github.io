@@ -90,8 +90,9 @@
 }
 
 .footer {
-  border-top: 1pt solid var(--light-text-color);
+  border-top: 1pt solid var(--primary-text-color);
   margin: 2em 0;
+  padding: 1em 0;
 }
 .footer .links {
   margin-bottom: 0;
@@ -103,7 +104,6 @@
 .footer a,
 .article-footer,
 .article-footer a {
-  font-size: 0.875rem;
   color: var(--light-text-color);
 }
 
