@@ -14,6 +14,7 @@
     stripe
       .redirectToCheckout({
         items: [{ sku: sku, quantity: quantity }],
+        billingAddressCollection: "required",
         successUrl: "https://unredacted-word.pub/checkout/success",
         cancelUrl: "https://unredacted-word.pub/checkout/canceled"
       })
