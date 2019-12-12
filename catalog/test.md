@@ -1,6 +1,7 @@
 ---
 title: Test Product
 excerpt: Unredacted Word test product
+layout: default
 sitemap: false
 ---
 
