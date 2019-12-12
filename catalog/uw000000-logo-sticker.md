@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Logo Sticker
 displayTitle: Logo sticker
 excerpt: Unredacted Word sticker, adhesive on printed paper.
