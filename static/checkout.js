@@ -1,7 +1,7 @@
 (function() {
   let STRIPE_TEST = "pk_test_DMllmJQxpZDZd6JMtbCLH8BX00H5sIivi9";
   let STRIPE_PROD = "pk_live_MpaXLmOedfJwMREWl7zTMH3Q00M8WLyiX5";
-  let STRIPE_KEY = document.location.host.match(/localhost/)
+  let STRIPE_KEY = document.location.href.match(/(localhost|catalog\/test)/)
     ? STRIPE_TEST
     : STRIPE_PROD;
   var stripe = Stripe(STRIPE_KEY);
