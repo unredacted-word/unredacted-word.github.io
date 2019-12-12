@@ -1,4 +1,5 @@
 ---
+layout: default
 bodyClass: page-home
 title: Unredacted Word
 displayTitle: " "
