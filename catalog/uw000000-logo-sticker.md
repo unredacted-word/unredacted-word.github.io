@@ -70,15 +70,18 @@ metaImage: /static/catalog/uw000000/logo-sticker-610x376.png
     <tr>
       <th>Buy</th>
       <td>
-        <button 
-          class="buy-now js-buynow"
-          data-sku="sku_GFlC0zzBrcHvid"
-          data-quantity="1"
-          data-price="50¢"
-          role="link">
-          Checkout / 50¢
-        </button>
-        <div class="js-stripe-errors"></div>
+        <div class="component component-buy-now">
+          <button 
+            class="buy-now js-buynow"
+            data-sku="sku_GFlC0zzBrcHvid"
+            data-quantity="1"
+            data-price="0.50"
+            role="link">
+            Checkout
+          </button>
+          <input type="number" class="buy-quantity js-buy-quantity" min="1" max="100" value="1">
+          <div class="js-stripe-errors"></div>
+        </div>
       </td>
     </tr>
   </tbody>

@@ -1,0 +1,12 @@
+<div class="component">
+  <button
+    class="buy-now js-buynow"
+    data-sku="%{ include.sku %}"
+    data-quantity="%{ include.quantity | default: "1" %}"
+    data-price="%{ include.price %}"
+    role="link">
+    Checkout
+  </button>
+  <input type="number" class="buy-quantity js-buy-quantity" min="1" max="100" value="1">
+  <div class="js-stripe-errors"></div>
+</div>

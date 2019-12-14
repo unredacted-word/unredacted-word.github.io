@@ -6,7 +6,7 @@
     : STRIPE_PROD;
   var stripe = Stripe(STRIPE_KEY);
 
-  window.addEventListener("click", function(el) {
+  addEventListener("click", function buyNow(el) {
     if (!el.target.classList.contains("js-buynow")) return;
     let target = el.target;
     let sku = target.getAttribute("data-sku");
@@ -24,5 +24,13 @@
           displayError.textContent = result.error.message;
         }
       });
+  });
+
+  addEventListener("change", function changeQuantity(event, b, c) {
+    let target = event.target;
+    if (!target.classList.contains("js-buy-quantity")) return;
+    let quantity = target.value;
+    let buyNow = target.parentElement.querySelector(".js-buynow");
+    buyNow.setAttribute("data-quantity", quantity);
   });
 })();
