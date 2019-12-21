@@ -1,0 +1,23 @@
+{% assign product = include.product.name %}
+
+<table class="blocktable">
+  <tbody>
+    <tr>
+      <th scope="row">Name</th>
+      <td>
+        <a href="{{ product.url }}" alt="{{ product.name }}">
+          {{ product.name }}
+        </a>
+      </td>
+    </tr>
+
+    {% if product.price %}
+    <tr>
+      <th scope="row">Buy</th>
+      <td>
+        {% include buy-now.html sku=product.external_sku price=product.price quantity=product.quantity %}
+      </td>
+    </tr>
+    {% endif %}
+  </tbody>
+</table>

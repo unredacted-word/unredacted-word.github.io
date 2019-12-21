@@ -20,6 +20,13 @@ excerpt: >
 
 ### [0. logo sticker](/catalog/uw000000-logo-sticker)
 
+{% for product in site.data.catalog %}
+  {% include product-listing.html product=product %}
+  {% include product-detail.html product=product %}
+{% endfor %}
+
+<hr />
+
 <table class="blocktable">
   <tbody>
     <tr>

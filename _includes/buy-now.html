@@ -1,9 +1,9 @@
-<div class="component">
+<div class="component component-buy-now">
   <button
     class="buy-now js-buynow"
-    data-sku="%{ include.sku %}"
-    data-quantity="%{ include.quantity | default: "1" %}"
-    data-price="%{ include.price %}"
+    data-sku="{{ include.sku }}"
+    data-quantity="{{ include.quantity | default: "1" }}"
+    data-price="{{ include.price }}"
     role="link">
     Checkout
   </button>
