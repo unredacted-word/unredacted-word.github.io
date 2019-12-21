@@ -4,7 +4,8 @@
   quantity: 1
   price: 0.50
   url: /catalog/uw000000-logo-sticker
-  photo: /static/catalog/uw000000/logo-sticker-610x376.png
+  images:
+    - /static/catalog/uw000000/logo-sticker-610x376.png
 
 - name: "The Society of the Spectacle"
   sku: UWXXXXXX
