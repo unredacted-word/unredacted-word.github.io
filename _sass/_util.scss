@@ -41,6 +41,29 @@
   flex-grow: 1;
 }
 
+.text-gradient {
+  font-size: calc(7vw + 16px);
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 4px,
+    var(--primary-text-color) 4px,
+    var(--primary-text-color) 6px
+  ), repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 48%,
+    var(--primary-text-color) 48%,
+    var(--primary-text-color) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient a:link {
+  text-decoration: none;
+}
+
 .byline,
 .byline .author,
 .published {
@@ -53,6 +76,7 @@
   align-items: center;
   height: 100vh;
 }
+
 
 .fullbleed {
   margin-left: -1.5rem;

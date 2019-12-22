@@ -1,16 +1,66 @@
-- name: "Logo Sticker"
+UW000000:
+  name: "Logo Sticker"
   sku: UW000000
   external_sku: sku_GFlC0zzBrcHvid
+  date: 2019-11-26 00:00:00
   quantity: 1
-  price: 0.50
+  price: "$0.50"
   url: /catalog/uw000000-logo-sticker
-  images:
-    - /static/catalog/uw000000/logo-sticker-610x376.png
+  image:
+    src: /static/catalog/uw000000/logo-sticker-610x376.png
+    alt: Sticker photo
+  image_assortment:
+    - src: /static/catalog/uw000000/logo-sticker-610x376.png
+      alt: Sticker photo
+    - src: /static/catalog/uw000000/logo-sticker-610x376.png
+      alt: Sticker photo
+    - src: /static/catalog/uw000000/logo-sticker-610x376.png
+      alt: Sticker photo
+    - src: /static/catalog/uw000000/logo-sticker-610x376.png
+      alt: Sticker photo
+  description: |
+    Unredacted Word logo, die cut stickers. Collect emʼ, trade emʼ
+    with your friends, put them in mysterious places.
+  features:
+    - key: Filename
+      value: logo.svg
+    - key: Artist
+      value: "0xADADA"
+    - key: Format
+      value: Adhesive on printed paper
+    - key: Application
+      value: Google Drawings, VIM, SVGOMG
+    - key: Size
+      value: 2" x 1.18
+    - key: Edition
+      value: 1&ordm; / 50 copies
+    - key: Copyright
+      value: © 2018-2019 Unredacted Word, LLC
 
-- name: "The Society of the Spectacle"
+UWXXXXXX:
+  name: "The Society of the Spectacle"
   sku: UWXXXXXX
-  url: /catalog/test
+  url: /
   external_sku: TODO
   quantity: 1
+  description: |
+    The baroque period of the arts was the first period in which the historical
+    time created by the nobility and ruling classes was able to express itself
+    as a predominant influence in the discipline of the arts. With the beginning
+    of the Enlightenment, the christian world and its explanation of reality was
+    challenged by science, rationality, lutheranism, and the protestants. The
+    christian world had suddenly lost its unified center, the last remaining
+    vestiges of the mythical society which had emerged from the Roman Empire had
+    finally lost its singular grasp on society, which it had held during the
+    middle ages.
+  features:
+    - key: Title (Original)
+      value: La Societé du Spectacle
+    - key: Author
+      value: Guy Debord
+    - key: Translator
+      value: "0xADADA"
+    - key: Release
+      value: ~2020
 
 

@@ -39,7 +39,3 @@ sitemap: false
     </tr>
   </tbody>
 </table>
-
-<!--
-{% include buy-now.html sku="1234" price="0.50" %}
--->
