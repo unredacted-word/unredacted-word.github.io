@@ -27,7 +27,8 @@
 }
 
 .layout-default,
-.layout-page {
+.layout-page,
+.layout-catalog {
   max-width: 60rem; /* 960 = 16 * 60 */
   margin: 0 auto;
 }
@@ -42,7 +43,6 @@
 }
 
 .text-gradient {
-  font-size: calc(7vw + 16px);
   background: repeating-linear-gradient(
     -45deg,
     transparent,

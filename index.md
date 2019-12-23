@@ -16,13 +16,11 @@ excerpt: >
 </div>
 
 
-## Catalog
-
 {% for item in site.data.catalog %}
   {% assign sku = item[1].sku %}
-  <h3 class="text-gradient">
+  <h2 class="text-gradient">
     <a href="{{ item[1].url }}">{{ item[1].name }}</a>
-  </h3>
+  </h2>
   {% include product-table.html sku=sku showFeatures="False" %}
 {% endfor %}
 
