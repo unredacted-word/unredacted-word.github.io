@@ -55,4 +55,9 @@
   <style>
     {{ css | scssify }}
   </style>
+  {% if page.style %}
+    <style>
+    {{ page.style }}
+    </style>
+  {% endif %}
 </head>

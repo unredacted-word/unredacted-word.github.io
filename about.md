@@ -1,5 +1,23 @@
 ---
 title: About
+style: |
+  .masthead {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .masthead li {
+    flex-basis: 45%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
+  .masthead p { 
+    font-style: italic;
+    font-family: Times, serif;
+    margin-top: 0;
+  }
 ---
 
 
@@ -27,4 +45,86 @@ very limited print runs in order to subsidize the cost of providing
 
 Our mission is to create worthwhile things that might last; and give them back to
 like-minded Others.
+
+<h2>Masthead</h2>
+
+<ol class="masthead">
+  <li>
+    Julius A.
+    <p>
+      Editor
+    </p>
+  </li>
+  <li>
+    0xADADA
+    <p>
+      Creative Director, Editor, Design &amp; Development
+    </p>
+  </li>
+  <li>
+    Melody B.
+    <p>
+      Copy Editor, Design &amp; Typesetting
+    </p>
+  </li>
+  <li>
+    Mark L.
+    <p>
+      Marketing
+    </p>
+  </li>
+  <li>
+    Yohanan A.
+    <p>
+      Sales
+    </p>
+  </li>
+  <li>
+    Gemma A.
+    <p>
+      Business
+    </p>
+  </li>
+  <li>
+    Paige P.
+    <p>
+      Global Customer Service &amp; Orders
+    </p>
+  </li> 
+  <li>
+    <em>now hiring</em>
+    <p>
+      International Rights, Legal
+    </p>
+  </li>
+</ol>
+
+<h2>Colophon</h2>
+
+Unredacted-word.pub powered by Jekyll, hosted on GitHub pages, with CDN provided
+by Cloudflare. The orders are charged with Stripe, and order fulfillment is handled
+by us. Transactional email is handled by Mailgun.
+
+
+<h2>Contact</h2>
+
+<h3>USA</h3>
+
+Unredacted Word LLC<br>
+1311 Cambridge St<br>
+PO Box 398084<br>
+Cambridge, MA<br>
+02139<br>
+<a href="mailto:enquiries@unredacted-word.pub" title="Email">Email</a>
+
+
+<h3>UK</h3>
+
+Unredacted Word<br>
+4R Meard Street<br>
+London<br>
+W1F 0EF<br>
+United Kingdom<br>
+<a href="mailto:enquiries@unredacted-word.pub" title="Email">Email</a>
+
 
