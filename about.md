@@ -19,8 +19,7 @@ style: |
     margin-right: 0;
   }
   .masthead p { 
-    font-style: italic;
-    font-family: Times, serif;
+    font-weight: 100;
     margin-top: 0;
   }
 ---

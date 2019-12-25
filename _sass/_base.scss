@@ -58,8 +58,14 @@ h6 {
   margin: 0.5em 0 0.2em 0;
   text-transform: uppercase;
 }
+
 h1, h2 {
   font-size: calc(10vw + 16px);
+}
+@media (min-width: 94rem) {
+  h1, h2 {
+    font-size: 10.5rem;
+  }
 }
 
 code,
