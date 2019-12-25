@@ -54,19 +54,19 @@ like-minded Others.
 
 <ol class="masthead">
   <li>
-    Julius A.
+    Julian A.
     <p>
       Editor
     </p>
   </li> 
   <li>
-    Melody B.
+    Mélanie B.
     <p>
       Copy Editor, Design &amp; Typesetting
     </p>
   </li>
   <li>
-    Mark L.
+    友坂未█ (Tomosaka M.)
     <p>
       Marketing
     </p>
