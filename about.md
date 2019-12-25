@@ -54,27 +54,27 @@ like-minded Others.
 
 <ol class="masthead">
   <li>
-    Julius A.
+    Julian A.
+    <p>
+      Founder &amp; Publisher
+    </p>
+  </li>
+  <li>
+    友坂未█ (Tomosaka M.)
     <p>
       Editor
     </p>
   </li> 
   <li>
-    Melody B.
+    Mélanie B.
     <p>
       Copy Editor, Design &amp; Typesetting
     </p>
   </li>
   <li>
-    Mark L.
-    <p>
-      Marketing
-    </p>
-  </li>
-  <li>
     0xADADA
     <p>
-      Creative Director, Editor, Design &amp; Development
+      Creative Director, Editor, Engineering
     </p>
   </li>
   <li>
@@ -95,6 +95,12 @@ like-minded Others.
       Global Customer Service &amp; Orders
     </p>
   </li> 
+  <li>
+    █████ █.
+    <p>
+      Customer Service
+    </p>
+  </li>
   <li>
     <em>now hiring</em>
     <p>
