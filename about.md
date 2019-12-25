@@ -13,6 +13,11 @@ style: |
     margin-right: 1em;
     margin-bottom: 1em;
   }
+  .masthead li:first-child {
+    flex-basis: 100%;
+    font-size: 1.5em;
+    margin-right: 0;
+  }
   .masthead p { 
     font-style: italic;
     font-family: Times, serif;
@@ -54,13 +59,7 @@ like-minded Others.
     <p>
       Editor
     </p>
-  </li>
-  <li>
-    0xADADA
-    <p>
-      Creative Director, Editor, Design &amp; Development
-    </p>
-  </li>
+  </li> 
   <li>
     Melody B.
     <p>
@@ -71,6 +70,12 @@ like-minded Others.
     Mark L.
     <p>
       Marketing
+    </p>
+  </li>
+  <li>
+    0xADADA
+    <p>
+      Creative Director, Editor, Design &amp; Development
     </p>
   </li>
   <li>
