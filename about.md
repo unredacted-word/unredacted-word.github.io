@@ -111,9 +111,9 @@ like-minded Others.
 
 <h2>Colophon</h2>
 
-Unredacted-word.pub powered by Jekyll, hosted on GitHub pages, with CDN provided
-by Cloudflare. The orders are charged with Stripe, and order fulfillment is handled
-by us. Transactional email is handled by Mailgun.
+Unredacted-word.pub powered by Jekyll, with CDN provided by Cloudflare. The 
+orders are charged with Stripe, and order fulfillment is handled by us. 
+Transactional email is handled by Mailgun.
 
 
 <h2>Contact</h2>
