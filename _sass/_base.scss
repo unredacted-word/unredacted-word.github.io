@@ -95,7 +95,9 @@ cite {
   display: block;
   font-style: normal;
 }
-blockquote cite {
+
+blockquote cite,
+q {
   font-style: italic;
 }
 
