@@ -44,22 +44,25 @@ UWXXXXXX:
   external_sku: TODO
   quantity: 1
   description: |
-    Book by Guy Debord, with a new translation by 0xADADA.
+    By Guy Debord.
     <p>
-    This book, and Debordʼs ideas, describe the way we live in the contemporary
-    era. The power in his ideas lies in their ability to question, identify, and
+    In this book, Debord describes the way we live in the contemporary
+    era. The power in these ideas lies in their ability to question, identify, and
     name the common assumptions of our period, and ultimately develops the
-    concept of The Spectacle, describing the “gaze” of contemporary culture. It
-    continues to influence a variety of philosophical and political movements,
-    most notably anti-capitalism, culture jamming, and anarchism.
+    concept of The Spectacle, describing the “gaze” of contemporary culture.
+    This book continues to influence a wide range of progressive philosophical
+    and political movements, most notably anti-capitalism, culture jamming, and
+    anarchism.
     </p>
-    <div style="margin:3rem 0">
+    <div style="margin:4rem 0">
       <a class="book-container" href="https://unredacted-word.pub">
         <div class="book">
           <img alt="The Society of the Spectacle by Guy Debord" src="/static/catalog/uw000001/cover-3d-458x539.png" />
         </div>
       </a>
     </div>
+    <p>
+    A new translation by 0xADADA.
   features:
     - key: Title (Original)
       value: La Societé du Spectacle
