@@ -46,13 +46,13 @@ UWXXXXXX:
   description: |
     By Guy Debord.
     <p>
-    In this book, Debord describes the way we live in the contemporary
-    era. The power in these ideas lies in their ability to question, identify, and
-    name the common assumptions of our period, and ultimately develops the
-    concept of The Spectacle, describing the “gaze” of contemporary culture.
-    This book continues to influence a wide range of progressive philosophical
-    and political movements, most notably anti-capitalism, culture jamming, and
-    anarchism.
+      In this book, Debord describes the way we live in the contemporary
+      era. The power in these ideas lies in their ability to question, identify,
+      and name the common assumptions of our period, and ultimately develops the
+      concept of The Spectacle, describing the “gaze” of contemporary culture.
+      This book continues to influence a wide range of progressive philosophical
+      and political movements, most notably anti-capitalism, culture jamming,
+      and anarchism.
     </p>
     <div style="margin:4rem 0">
       <a class="book-container" href="https://unredacted-word.pub">
@@ -62,7 +62,8 @@ UWXXXXXX:
       </a>
     </div>
     <p>
-    A new translation by 0xADADA.
+      A new translation by 0xADADA.
+    </p>
   features:
     - key: Title (Original)
       value: La Societé du Spectacle
