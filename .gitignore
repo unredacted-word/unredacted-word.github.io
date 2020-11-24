@@ -30,3 +30,4 @@ vendor/
 
 # Environment-dependent files
 _config_local.yml
+.tool-versions
