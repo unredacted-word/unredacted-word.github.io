@@ -8,7 +8,7 @@ excerpt: >
   forthcoming in 2020.
 ---
 
-<div class="aesthetics fullbleed" contenteditable="true">
+<div class="aesthetics fullbleed">
   <p class="centered">
     <span class="cursor">█</span>
     Unredacted <s>Word</s>: publisher of words, code &amp; data.
