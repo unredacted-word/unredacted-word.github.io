@@ -5,28 +5,23 @@
   perspective: 500px;
 }
 
-@keyframes initAnimation {
+@keyframes rotateAnimation {
   0% {
-    transform: rotateY(-6deg);
+    transform: rotateY(-41deg);
   }
   100% {
-    transform: rotateY(-27deg);
+    transform: rotateY(-10deg);
   }
 }
 
 .book {
-  width: 229px;
-  height: 269px;
+  width: 152px;
+  height: 180px;
   position: relative;
   transform-style: preserve-3d;
-  transform: rotateY(-27deg);
-  transition: 1.5s ease;
-  animation: 1s ease 0s 1 initAnimation;
-}
-
-.book-container:hover .book,
-.book-container:focus .book {
-  transform: rotateY(-6deg);
+  transform: rotateY(-10deg);
+  animation: 3s ease 0s infinite rotateAnimation;
+  animation-direction: alternate;
 }
 
 .book > :first-child {
@@ -34,11 +29,11 @@
   top: 0;
   left: 0;
   background-color: red;
-  width: 229px;
-  height: 269px;
-  transform: translateZ(20px);
+  width: 152px;
+  height: 180px;
+  transform: translateZ(10px);
   background-color: #01060f;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 3px 3px 0;
   box-shadow: 5px 5px 20px #666;
 }
 
@@ -48,9 +43,9 @@
   background-color: blue;
   left: 0;
   top: 3px;
-  width: 38px;
-  height: 263px;
-  transform: translateX(206px) rotateY(90deg);
+  width: 18px;
+  height: 174px;
+  transform: translateX(139px) rotateY(90deg);
   background: linear-gradient(90deg,
     #fff 0%,
     #f9f9f9 5%,
@@ -81,10 +76,10 @@
   top: 0;
   left: 0;
   content: ' ';
-  width: 229px;
-  height: 269px;
-  transform: translateZ(-20px);
+  width: 152px;
+  height: 180px;
+  transform: translateZ(-10px);
   background-color: #01060f;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 3px 3px 0;
   box-shadow: -10px 0 50px 10px #666;
 }
