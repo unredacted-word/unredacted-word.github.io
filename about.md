@@ -54,9 +54,9 @@ like-minded Others.
 
 <ol class="masthead">
   <li>
-    Julian A.
+    Ron. A.
     <p>
-      Founder &amp; Publisher
+      Co-founder &amp; Publisher, Editor, Author
     </p>
   </li>
   <li>
@@ -74,7 +74,7 @@ like-minded Others.
   <li>
     0xADADA
     <p>
-      Creative Director, Editor, Engineering
+      Co-founder, Creative Director, Typesetting, Engineering
     </p>
   </li>
   <li>
@@ -115,6 +115,8 @@ Unredacted-word.pub powered by Jekyll, with CDN provided by Cloudflare. The
 orders are charged with Stripe, and order fulfillment is handled by us. 
 Transactional email is handled by Mailgun.
 
+The Unredacted Word mark, █ is unicode "Full Block" character, `U+2588`
+approved as part of Unicode 1.1 in 1993.
 
 <h2>Contact</h2>
 
