@@ -56,7 +56,7 @@ like-minded Others.
   <li>
     Ron. A.
     <p>
-      Co-founder &amp; Publisher, Editor, Author
+      Co-founder &amp; Publisher, Editor
     </p>
   </li>
   <li>
