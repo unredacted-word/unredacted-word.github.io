@@ -54,7 +54,7 @@ like-minded Others.
 
 <ol class="masthead">
   <li>
-    Ron. A.
+    Ron. A
     <p>
       Co-founder &amp; Publisher, Editor
     </p>
@@ -123,8 +123,7 @@ approved as part of Unicode 1.1 in 1993.
 <h3>USA</h3>
 
 Unredacted Word LLC<br>
-1311 Cambridge St<br>
-PO Box 398084<br>
+1311 Cambridge St Unit 398084<br>
 Cambridge, MA<br>
 02139<br>
 <a href="mailto:enquiries@unredacted-word.pub" title="Email">Email</a>
