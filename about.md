@@ -54,7 +54,7 @@ like-minded Others.
 
 <ol class="masthead">
   <li>
-    Ron. A
+    Julian A.
     <p>
       Co-founder &amp; Publisher, Editor
     </p>
@@ -86,13 +86,13 @@ like-minded Others.
   <li>
     Gemma A.
     <p>
-      Business
+      Distribution &amp; Logistics
     </p>
   </li>
   <li>
     Paige P.
     <p>
-      Global Customer Service &amp; Orders
+      Customer Service &amp; Orders
     </p>
   </li> 
   <li>
