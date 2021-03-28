@@ -224,6 +224,10 @@
 .blocktable tbody tr th:first-child {
   width: 25%;
 }
+.blocktable td p:first-child {
+  margin-top: 0;
+}
+
 .component-buy-now {
   display: flex;
 }

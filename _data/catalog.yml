@@ -37,32 +37,50 @@ UW000000:
     - key: Copyright
       value: © 2018-2019 Unredacted Word, LLC
 
-UWXXXXXX:
-  name: "The Society of the Spectacle"
-  sku: UWXXXXXX
-  url: /
+UW010301:
+  name: "The Society of the Spectacle (Web book)"
+  sku: "UW010301"
+  url: "/catalog/uw010301-spectacle"
   external_sku: TODO
+  date: 2021-03-27 21:00:00
   quantity: 1
+  price: false
   description: |
-    By Guy Debord.
     <p>
-      In this book, Debord describes the way we live in the contemporary
-      era. The power in these ideas lies in their ability to question, identify,
-      and name the common assumptions of our period, and ultimately develops the
-      concept of The Spectacle, describing the “gaze” of contemporary culture.
-      This book continues to influence a wide range of progressive philosophical
-      and political movements, most notably anti-capitalism, culture jamming,
-      and anarchism.
+      A free web edition of our new translation of Debord's <em>The Society of
+      the Spectacle</em>.
+    </p>
+    <p>
+      Debord describes and critiques the way we live. The power in these ideas
+      lies in their ability to question, identify, and name the common
+      assumptions of the present. Developing the concept of The Spectacle, he
+      describes the “gaze” of contemporary society. From its publication just
+      before, and ultimately influencing the May 1968 revolt in Paris and Occupy
+      Wall Street, this book continues to transform a wide range of progressive
+      philosophical and political movements, most notably anti-capitalism,
+      postmodernism, marxism, and anarchism.
+    </p>
+    <p>
+      This new translation brings a concrete edge to the text, elaborating upon
+      the original, and adding annotations. Bringing fifty years of prominent
+      radical thinking back to the text, from Baudrillard to Odell to
+      Zuboff—it’s clear that Debords’ book is more relevant in the era of social
+      media, the attention economy, and the emergence of Surveillance Capitalism
+      than ever before.
     </p>
     <div style="margin:4rem 0">
-      <a class="book-container" href="https://unredacted-word.pub">
+      <a class="book-container" href="https://unredacted-word.pub/spectacle">
         <div class="book">
-          <img alt="The Society of the Spectacle by Guy Debord" src="/static/catalog/uw000001/cover-3d-458x539.png" />
+          <img alt="The Society of the Spectacle by Guy Debord" src="/static/catalog/uw010301/cover.png" />
         </div>
       </a>
     </div>
     <p>
-      A new translation by 0xADADA.
+      A new English Edition by Ron. Adams.
+    </p>
+    <p>
+      <a class="buy-now" style="border-radius:0.25rem"
+        href="https://unredacted-word.pub/spectacle/">Read</a>
     </p>
   features:
     - key: Title (Original)
@@ -70,8 +88,20 @@ UWXXXXXX:
     - key: Author
       value: Guy Debord
     - key: Translator
-      value: "0xADADA"
+      value: "Ron. Adams"
     - key: Release
-      value: ~2020
+      value: April 2021
+    - key: Format
+      value: eBook (Website)
+    - key: ISBN
+      value: "978-1-7369618-0-3"
+    - key: Size
+      value: "Responsive website, 3 layouts (inline, float, sidenotes)"
+    - key: Dust Jacket design
+      value: "0xADADA"
+    - key: Rights
+      value: "Copyleft 🄯 2021 █ Unredacted Word, LLC, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+    - key: Price
+      value: "$0.00 (Gratis/Free)"
 
 
