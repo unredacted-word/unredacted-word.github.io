@@ -1,10 +1,10 @@
 ---
 layout: default
-title: The Society of the Spectacle
+title: The Society of the Spectacle (Web eBook)
 displayTitle: The Society of the Spectacle
 sku: UW010301
-excerpt: Unredacted Word sticker, adhesive on printed paper.
-metaImage: /static/catalog/uw010301/cover.png
+excerpt: "Debord describes and critiques the way we live. The power in these ideas lies in their ability to question, identify, and name the common assumptions of the present. Developing the concept of The Spectacle, he describes the “gaze” of contemporary society."
+metaImage: /static/catalog/uw010301/card.jpg
 ---
 
 
