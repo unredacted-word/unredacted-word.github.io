@@ -47,7 +47,7 @@ UW010301:
   price: false
   description: |
     <p>
-      A free web edition of our new translation of Debord's <em>The Society of
+      A web edition of our new translation of Debord's <em>The Society of
       the Spectacle</em>.
     </p>
     <p>
@@ -96,7 +96,7 @@ UW010301:
     - key: ISBN
       value: "9781736961803"
     - key: Size
-      value: "Responsive website, 3 layouts (inline, float, sidenotes)"
+      value: "Responsive website, 2 layouts (mobile: popup footnotes, desktop: sidenotes)"
     - key: Dust Jacket design
       value: "0xADADA"
     - key: Rights
