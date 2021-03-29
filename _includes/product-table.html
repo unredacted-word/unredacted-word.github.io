@@ -60,7 +60,6 @@
           <th scope="row">Image</th>
           <td>
             <img src="{{ product.image.src }}" alt="{{ product.image.alt }}">
-            features: {{ include.showFeatures }}.
           </td>
         </tr>
       {% endif %}
@@ -84,7 +83,7 @@
       <tr>
         <th scope="row">Buy</th>
         <td>
-          {% include buy-now.html sku=product.external_sku price=product.price quantity=product.quantity %}
+          {% include buy-now.html cta=product.cta sku=product.external_sku price=product.price quantity=product.quantity %}
         </td>
       </tr>
       {% endif %}

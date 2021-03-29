@@ -5,7 +5,7 @@
     data-quantity="{{ include.quantity | default: "1" }}"
     data-price="{{ include.price }}"
     role="link">
-    Buy
+    {{ include.cta | default: "Buy" }}
   </button>
   <input type="number" class="buy-quantity js-buy-quantity" min="1" max="100" value="1">
   <div class="js-stripe-errors"></div>
