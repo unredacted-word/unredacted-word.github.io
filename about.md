@@ -115,6 +115,8 @@ Unredacted-word.pub powered by Jekyll, with CDN provided by Cloudflare. The
 orders are charged with Stripe, and order fulfillment is handled by us. 
 Transactional email is handled by Mailgun.
 
+<img src="/static/logo.svg" alt="Unredacted Word logo" height="512" width="512">
+
 The Unredacted Word mark, █ is unicode "Full Block" character, `U+2588`
 approved as part of Unicode 1.1 in 1993.
 
