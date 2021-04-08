@@ -40,6 +40,10 @@ UW010101:
     <p>
       A new English Edition by Ron. Adams.
     </p>
+    <p>
+      <a class="buy-now" style="border-radius:0.25rem"
+        href="https://unredacted-word.pub/spectacle/">Look Inside</a>
+    </p>
   features:
     - key: Title (Original)
       value: La Societé du Spectacle
