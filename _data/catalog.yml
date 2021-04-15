@@ -183,15 +183,16 @@ UW010501:
         <img src="/static/retail-amazon.svg" height="64" alt="Amazon Kindle logo" />
       </a>
       <br />
-      <a class="buy-now" style="border-radius:0.25rem"
+      <a class="buy-now" style="border-radius:0.25rem margin: 0.5em;"
         href="https://www.amazon.com/dp/B092CDGWYZ">Buy on Amazon</a>
       </a>
     </p>
     <p>
       <a href="https://books.apple.com/us/book/the-society-of-the-spectacle/id1563244850?ls=1" title="Apple Books">
-        <img src="/static/retail-apple-books.svg" height="64" alt="Apple Books logo" />
+        <img src="/static/retail-apple-books.svg" height="128" alt="Apple Books logo" />
       </a>
-      <a class="buy-now" style="border-radius:0.25rem"
+      <br />
+      <a class="buy-now" style="border-radius:0.25rem; margin: 0.5em;"
         href="https://books.apple.com/us/book/the-society-of-the-spectacle/id1563244850?ls=1">Buy on Apple Books</a>
       </a>
     </p>
