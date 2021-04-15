@@ -1,5 +1,5 @@
 UW010101:
-  name: "The Society of the Spectacle (pre-order)"
+  name: "The Society of the Spectacle (hardcover pre-order)"
   sku: "UW010101"
   url: "/catalog/uw010101-spectacle"
   external_sku: sku_JCmkFFh767juPU
@@ -139,7 +139,7 @@ UW010301:
       value: "$0.00 (Gratis/Free)"
 
 UW010501:
-  name: "The Society of the Spectacle (Kindle eBook)"
+  name: "The Society of the Spectacle (eBook)"
   sku: "UW010501"
   url: "/catalog/uw010501-spectacle"
   external_sku: B092CDGWYZ
@@ -151,10 +151,7 @@ UW010501:
     alt: Cover of The Society of the Spectacle on Kindle
   description: |
     <p>
-      <img
-        src="/static/retail-amazon.svg" height="20"
-        style="vertical-align:sub;" alt="Amazon Kindle" />
-      edition of our new translation of Debord's <em>The Society of the
+      eBook edition of our new translation of Debord's <em>The Society of the
       Spectacle</em>.
     </p>
     <p>
@@ -179,13 +176,20 @@ UW010501:
       A new English Edition by Ron. Adams.
     </p>
     <p>
-      <a class="buy-now" style="border-radius:0.25rem"
-        href="https://www.amazon.com/dp/B092CDGWYZ">Buy on Amazon</a>
-    </p>
-    <p>
       <a href="https://www.amazon.com/dp/B092CDGWYZ" title="Amazon">
         <img src="/static/retail-amazon.svg" height="64" alt="Amazon Kindle logo" />
       </a>
+      <br />
+      <a class="buy-now" style="border-radius:0.25rem"
+        href="https://www.amazon.com/dp/B092CDGWYZ">Buy at Amazon</a>
+    </p>
+    <p>
+      <a href="https://www.kobo.com/us/en/ebook/the-society-of-the-spectacle-3" title="Kobo">
+        <img src="/static/retail-kobo.svg" height="64" alt="Kobo logo" />
+      </a>
+      <br />
+      <a class="buy-now" style="border-radius:0.25rem"
+        href="https://www.kobo.com/us/en/ebook/the-society-of-the-spectacle-3">Buy at Kobo</a>
     </p>
   features:
     - key: Title (Original)
@@ -197,9 +201,9 @@ UW010501:
     - key: Release
       value: April 2021
     - key: Format
-      value: eBook (Kindle)
+      value: eBook (ePub)
     - key: Price
-      value: "$7.99"
+      value: "$5.99 - $7.99"
     - key: ISBN
       value: "9781736961803"
     - key: ASIN
