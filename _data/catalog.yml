@@ -191,6 +191,14 @@ UW010501:
       <a class="buy-now" style="border-radius:0.25rem"
         href="https://www.kobo.com/us/en/ebook/the-society-of-the-spectacle-3">Buy at Kobo</a>
     </p>
+    <p>
+      <a href="https://play.google.com/store/books/details?id=fpUoEAAAQBAJ" title="Google Play Books">
+        <img src="/static/retail-google-play-books.svg" height="64" alt="Google Play logo" />
+      </a>
+      <br />
+      <a class="buy-now" style="border-radius:0.25rem"
+        href="https://play.google.com/store/books/details?id=fpUoEAAAQBAJ">Buy at Google Play</a>
+    </p>
   features:
     - key: Title (Original)
       value: La Societé du Spectacle
