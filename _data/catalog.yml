@@ -1,12 +1,11 @@
 UW010101:
-  name: "The Society of the Spectacle (hardcover pre-order)"
+  name: "The Society of the Spectacle (hardcover)"
   sku: "UW010101"
   url: "/catalog/uw010101-spectacle"
   external_sku: sku_JCmkFFh767juPU
   date: 2021-04-01 21:00:00
   quantity: 1
   price: "$34.95"
-  cta: "Pre-order"
   image:
     src: /static/catalog/uw010101/01.jpg
     alt: Cover of The Society of the Spectacle
@@ -57,7 +56,7 @@ UW010101:
     - key: Release
       value: April 2021
     - key: Format
-      value: Hardcover (linen bound)
+      value: Hardcover (linen bound) w/dust jacket
     - key: Size
       value: US Trade (6x9 inches)
     - key: Pages
@@ -75,7 +74,7 @@ UW010101:
     - key: Rights
       value: "Copyleft 🄯 2021 █ Unredacted Word, LLC, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
     - key: Shipping
-      value: "Shipping orders starting at the end of April, or early May 2021."
+      value: "Ships within 48H of your order."
 
 
 UW010301:
