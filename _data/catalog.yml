@@ -35,17 +35,28 @@ UW010101:
     <div style="margin:4rem 0">
       <a class="book-container" href="https://unredacted-word.pub/spectacle">
         <div class="book">
-          <img alt="The Society of the Spectacle by Guy Debord" src="/static/catalog/uw010301/cover.png" />
+          <img alt="The Society of the Spectacle by Guy Debord" src="/static/catalog/uw010101/cover.png" />
         </div>
       </a>
     </div>
     <p>
-      A new English Edition by Ron. Adams.
+      A new English edition by Ron. Adams.
     </p>
     <p>
       <a class="buy-now" style="border-radius:0.25rem"
         href="https://unredacted-word.pub/spectacle/">Look Inside</a>
     </p>
+    <p>Available at these retailers</p>
+    <ul>
+      <li>
+        <a href="http://lucyparsons.org/" title="Lucy Parsons Center">Lucy Parsons Center</a>
+        Jamaica Plain, MA.
+      </li>
+      <li>
+        <a href="https://riffraffpvd.com/the-society-of-the-specatcle/" title="Riffraff Bookstore + Bar">Riffraff Bookstore + Bar</a>
+        Providence, RI.
+      </li>
+    </ul>
   features:
     - key: Title (Original)
       value: La Societé du Spectacle
