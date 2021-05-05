@@ -4,8 +4,8 @@ bodyClass: page-home
 title: Unredacted Word
 displayTitle: " "
 excerpt: > 
-  Unredacted Word: publisher of words, code & data. Society of the Spectacle,
-  forthcoming in 2020.
+  Unredacted Word: publisher of words, code & data. New edition of The Society of the Spectacle,
+  is out now 💥.
 ---
 
 <div class="aesthetics fullbleed">
