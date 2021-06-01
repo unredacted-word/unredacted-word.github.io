@@ -1,11 +1,11 @@
 UW010101:
-  name: "The Society of the Spectacle (hardcover)"
+  name: "The Society of the Spectacle (SOLD OUT)"
   sku: "UW010101"
   url: "/catalog/uw010101-spectacle"
   external_sku: sku_JCmkFFh767juPU
   date: 2021-04-01 21:00:00
   quantity: 1
-  price: "$34.95"
+  price: false
   image:
     src: /static/catalog/uw010101/01.jpg
     alt: Cover of The Society of the Spectacle
@@ -82,8 +82,8 @@ UW010101:
       value: First
     - key: Print run
       value: 50 copies
-    - key: In Stock
-      value: 2 copies
+    - key: Remaining In Stock
+      value: 0 copies (SOLD OUT)
     - key: Dust Jacket design
       value: "0xADADA"
     - key: Pricing detail
