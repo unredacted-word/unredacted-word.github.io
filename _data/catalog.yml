@@ -1,5 +1,5 @@
 UW010101:
-  name: "The Society of the Spectacle (SOLD OUT)"
+  name: "The Society of the Spectacle (Out of Print)"
   sku: "UW010101"
   url: "/catalog/uw010101-spectacle"
   external_sku: sku_JCmkFFh767juPU
@@ -83,7 +83,7 @@ UW010101:
     - key: Print run
       value: 50 copies
     - key: Remaining In Stock
-      value: 0 copies (SOLD OUT)
+      value: 0 copies (Out of Print)
     - key: Dust Jacket design
       value: "0xADADA"
     - key: Pricing detail
