@@ -241,12 +241,24 @@ UW010501:
       value: "$5.99 - $7.99"
     - key: ISBN
       value: "9781736961803"
+    - key: ASIN
+      value: "B092CDGWYZ"
+    - key: Amazon
+      value: |
+        <a class="buy-now" style="border-radius:0.25rem"
+          href="https://www.amazon.com/dp/B092CDGWYZ">Buy at Amazon</a>
     - key: Google Play
       value: |
         <a class="buy-now" style="border-radius:0.25rem"
           href="https://play.google.com/store/books/details?id=fpUoEAAAQBAJ">Buy at Google Play</a>
-    - key: ASIN
-      value: "B092CDGWYZ"
+    - key: Apple Books
+      value: |
+        <a class="buy-now" style="border-radius:0.25rem"
+          href="https://books.apple.com/us/book/the-society-of-the-spectacle/id1563244850?ls=1">Buy at Apple Books</a>
+    - key: Kobo
+      value: |
+        <a class="buy-now" style="border-radius:0.25rem"
+          href="https://www.kobo.com/us/en/ebook/the-society-of-the-spectacle-3">Buy at Kobo</a>
     - key: Rights
       value: "Copyleft 🄯 2021 █ Unredacted Word, LLC, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
 
