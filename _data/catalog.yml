@@ -241,6 +241,10 @@ UW010501:
       value: "$5.99 - $7.99"
     - key: ISBN
       value: "9781736961803"
+    - key: Google Play
+      value: |
+        <a class="buy-now" style="border-radius:0.25rem"
+          href="https://play.google.com/store/books/details?id=fpUoEAAAQBAJ">Buy at Google Play</a>
     - key: ASIN
       value: "B092CDGWYZ"
     - key: Rights
