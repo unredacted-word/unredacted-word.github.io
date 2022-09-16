@@ -198,33 +198,21 @@ UW010501:
       <a href="https://www.amazon.com/dp/B092CDGWYZ" title="Amazon">
         <img src="/static/retail-amazon.svg" height="64" alt="Amazon Kindle logo" />
       </a>
-      <br />
-      <a class="buy-now" style="border-radius:0.25rem"
-        href="https://www.amazon.com/dp/B092CDGWYZ">Buy at Amazon</a>
     </p>
     <p>
       <a href="https://www.kobo.com/us/en/ebook/the-society-of-the-spectacle-3" title="Kobo">
         <img src="/static/retail-kobo.svg" height="64" alt="Kobo logo" />
       </a>
-      <br />
-      <a class="buy-now" style="border-radius:0.25rem"
-        href="https://www.kobo.com/us/en/ebook/the-society-of-the-spectacle-3">Buy at Kobo</a>
     </p>
     <p>
       <a href="https://books.apple.com/us/book/the-society-of-the-spectacle/id1563244850?ls=1" title="Apple Books">
         <img src="/static/retail-apple-books.svg" height="64" alt="Apple Books logo" />
       </a>
-      <br />
-      <a class="buy-now" style="border-radius:0.25rem"
-        href="https://books.apple.com/us/book/the-society-of-the-spectacle/id1563244850?ls=1">Buy at Apple Books</a>
     </p>
     <p>
       <a href="https://play.google.com/store/books/details?id=fpUoEAAAQBAJ" title="Google Play Books">
         <img src="/static/retail-google-play-books.svg" height="64" alt="Google Play logo" />
       </a>
-      <br />
-      <a class="buy-now" style="border-radius:0.25rem"
-        href="https://play.google.com/store/books/details?id=fpUoEAAAQBAJ">Buy at Google Play</a>
     </p>
   features:
     - key: Title (Original)
