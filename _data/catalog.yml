@@ -1,11 +1,11 @@
 UW010101:
-  name: "The Society of the Spectacle (Out of Print)"
+  name: "The Society of the Spectacle (Hardcover)"
   sku: "UW010101"
   url: "/catalog/uw010101-spectacle"
   external_sku: sku_JCmkFFh767juPU
   date: 2021-04-01 21:00:00
   quantity: 1
-  price: false
+  price: "$41.95"
   image:
     src: /static/catalog/uw010101/01.jpg
     alt: Cover of The Society of the Spectacle
@@ -79,15 +79,15 @@ UW010101:
     - key: ISBN
       value: "9781736961810"
     - key: Edition
-      value: First
+      value: Second
     - key: Print run
       value: 50 copies
     - key: Remaining In Stock
-      value: 0 copies (Out of Print)
+      value: 10 copies
     - key: Dust Jacket design
       value: "0xADADA"
     - key: Pricing detail
-      value: "$34.95 is $27.95 for the book and $7 flat shipping fee."
+      value: "$41.95 shipped"
     - key: Rights
       value: "Copyleft 🄯 2021 █ Unredacted Word, LLC, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
     - key: Shipping
