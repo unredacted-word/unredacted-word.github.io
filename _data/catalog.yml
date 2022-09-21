@@ -46,21 +46,6 @@ UW010101:
       <a class="buy-now" style="border-radius:0.25rem"
         href="https://unredacted-word.pub/spectacle/">Look Inside</a>
     </p>
-    <p>Available at these retailers</p>
-    <ul>
-      <li>
-        <a href="http://lucyparsons.org/" title="Lucy Parsons Center">Lucy Parsons Center</a>
-        Jamaica Plain, MA.
-      </li>
-      <li>
-        <a href="https://riffraffpvd.com/the-society-of-the-specatcle/" title="Riffraff Bookstore + Bar">Riffraff Bookstore + Bar</a>
-        Providence, RI.
-      </li>
-      <li>
-        <a href="http://www.ravencambridge.com/" title="Raven Used Books">Raven Used Books</a> Harvard Sqaure, Cambridge, MA.
-        Providence, RI.
-      </li>
-    </ul>
   features:
     - key: Title (Original)
       value: La Societé du Spectacle
@@ -79,19 +64,15 @@ UW010101:
     - key: ISBN
       value: "9781736961810"
     - key: Edition
-      value: Second
+      value: Second (2022)
     - key: Print run
       value: 50 copies
-    - key: Remaining In Stock
-      value: 10 copies
     - key: Dust Jacket design
       value: "0xADADA"
-    - key: Pricing detail
-      value: "$41.95 shipped"
     - key: Rights
       value: "Copyleft 🄯 2021 █ Unredacted Word, LLC, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
     - key: Shipping
-      value: "US domestic orders ship within 48H of your order / International orders may be charged separately up to $25"
+      value: "US domestic orders ship within 72H of your order / International orders may be charged separately up to $25"
 
 
 UW010301:
