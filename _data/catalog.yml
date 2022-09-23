@@ -1,5 +1,5 @@
 UW010102:
-  name: "The Society of the Spectacle (2nd Ed. Hardcover)"
+  name: "The Society of the Spectacle (Hardcover)"
   sku: "UW010102"
   url: "/catalog/uw010102-spectacle"
   external_sku: sku_JCmkFFh767juPU
@@ -74,84 +74,8 @@ UW010102:
     - key: Shipping
       value: "US domestic orders ship within 72H of your order / International orders may be charged separately up to $25"
 
-UW010101:
-  name: "The Society of the Spectacle (out of print)"
-  sku: "UW010101"
-  url: "/catalog/uw010101-spectacle"
-  external_sku: sku_JCmkFFh767juPU
-  date: 2021-04-01 21:00:00
-  quantity: 1
-  price: false
-  image:
-    src: /static/catalog/uw010101/01.jpg
-    alt: Cover of The Society of the Spectacle
-  description: |
-    <p>
-      A linen bound hardcover first edition of our new translation of Debord's
-      <em>The Society of the Spectacle</em>.
-    </p>
-    <p>
-      Debord describes and critiques the way we live. The power in these ideas
-      lies in their ability to question, identify, and name the common
-      assumptions of the present. Developing the concept of The Spectacle, he
-      describes the “gaze” of contemporary society. From its publication just
-      before, and ultimately influencing the May 1968 revolt in Paris and Occupy
-      Wall Street, this book continues to transform a wide range of progressive
-      philosophical and political movements, most notably anti-capitalism,
-      postmodernism, marxism, and anarchism.
-    </p>
-    <p>
-      This new translation brings a concrete edge to the text, elaborating upon
-      the original, and adding annotations. Bringing fifty years of prominent
-      radical thinking back to the text, from Baudrillard to Odell to
-      Zuboff—it’s clear that Debord’s book is more relevant in the era of social
-      media, the attention economy, and the emergence of Surveillance Capitalism
-      than ever before.
-    </p>
-    <div style="margin:4rem 0">
-      <a class="book-container" href="https://unredacted-word.pub/spectacle">
-        <div class="book">
-          <img alt="The Society of the Spectacle by Guy Debord" src="/static/catalog/uw010101/cover.png" />
-        </div>
-      </a>
-    </div>
-    <p>
-      A new English edition by Ron. Adams.
-    </p>
-    <p>
-      <a class="buy-now" style="border-radius:0.25rem"
-        href="https://unredacted-word.pub/spectacle/">Look Inside</a>
-    </p>
-  features:
-    - key: Title (Original)
-      value: La Societé du Spectacle
-    - key: Author
-      value: Guy Debord
-    - key: Translator
-      value: "Ron. Adams"
-    - key: Release
-      value: April 2021
-    - key: Format
-      value: Hardcover (linen bound) w/dust jacket
-    - key: Size
-      value: US Trade (6x9 inches)
-    - key: Pages
-      value: 230
-    - key: ISBN
-      value: "9781736961810"
-    - key: Edition
-      value: First
-    - key: Print run
-      value: 50 copies
-    - key: Dust Jacket design
-      value: "0xADADA"
-    - key: Rights
-      value: "Copyleft 🄯 2021 █ Unredacted Word, LLC, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
-    - key: Shipping
-      value: "US domestic orders ship within 72H of your order / International orders may be charged separately up to $25"
-
 UW010301:
-  name: "The Society of the Spectacle (Web eBook)"
+  name: "The Society of the Spectacle (Website)"
   sku: "UW010301"
   url: "/catalog/uw010301-spectacle"
   external_sku: TODO
@@ -163,8 +87,8 @@ UW010301:
     alt: Cover of The Society of the Spectacle
   description: |
     <p>
-      A web edition of our new translation of Debord's <em>The Society of
-      the Spectacle</em>.
+      A web edition of our new translation of Debord's
+      <em>The Society of the Spectacle</em>.
     </p>
     <p>
       Debord describes and critiques the way we live. The power in these ideas
@@ -201,7 +125,7 @@ UW010301:
     - key: Release
       value: April 2021
     - key: Format
-      value: eBook (Website) / Progressive Web App
+      value: Web eBook / Progressive Web App
     - key: ISBN
       value: "9781736961803"
     - key: Size
