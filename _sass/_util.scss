@@ -92,6 +92,10 @@
   color: rgba(5, 3, 6, 1);
 }
 
+.text-gradient a:link {
+  text-decoration: none;
+}
+
 .footer {
   border-top: 1pt solid var(--primary-text-color);
   margin: 2em 0;
