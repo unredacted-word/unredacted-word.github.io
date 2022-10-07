@@ -1,5 +1,5 @@
 UW010102:
-  name: "The Society of the Spectacle (Hardcover)"
+  name: "The Society of the Spectacle"
   sku: "UW010102"
   url: "/catalog/uw010102-spectacle"
   external_sku: sku_JCmkFFh767juPU
@@ -9,6 +9,7 @@ UW010102:
   image:
     src: /static/catalog/uw010101/01.jpg
     alt: Cover of The Society of the Spectacle
+  product_type: Book (Hardcover)
   description: |
     <p>
       A linen bound hardcover second edition of our new translation of Debord's
@@ -82,6 +83,7 @@ UW010301:
   date: 2021-03-27 21:00:00
   quantity: 1
   price: false
+  product_type: eBook (Website)
   image:
     src: /static/catalog/uw010301/cover.png
     alt: Cover of The Society of the Spectacle
@@ -138,13 +140,14 @@ UW010301:
       value: "$0.00 (Gratis/Free)"
 
 UW010501:
-  name: "The Society of the Spectacle (eBook)"
+  name: "The Society of the Spectacle"
   sku: "UW010501"
   url: "/catalog/uw010501-spectacle"
   external_sku: B092CDGWYZ
   date: 2021-04-14 21:30:00
   quantity: 1
   price: false
+  product_type: eBook (ePub)
   image:
     src: /static/catalog/uw010501/kindle.jpg
     alt: Cover of The Society of the Spectacle on Kindle
@@ -231,12 +234,13 @@ UW010501:
       value: "Copyleft 🄯 2021 █ Unredacted Word, LLC, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
 
 UW000000:
-  name: "Logo Sticker (SOLD OUT)"
+  name: "Logo Sticker"
   sku: UW000000
   external_sku: sku_GFlC0zzBrcHvid
   date: 2019-11-26 00:00:00
   quantity: 1
   price: false
+  product_type: Sticker
   url: /catalog/uw000000-logo-sticker
   image:
     src: /static/catalog/uw000000/logo-sticker-610x376.png
