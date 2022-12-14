@@ -1,3 +1,38 @@
+UW020601:
+  name: "ZN6 ZC6 Factory Service Manual Engine Mechanical"
+  sku: "uw020601"
+  url: "/catalog/uw020601-zn6-zc6-factory-service-manual-engine-mechanical"
+  external_sku: sku_MyvMhFnKRDnwe1
+  date: 2022-12-14 10:54:00
+  quantity: 1
+  price: "$21.95"
+  image:
+    src: /static/catalog/uw020601/cover.png
+    alt: Cover of ZN6 ZC6 Factory Service Manual Engine Mechanical
+  product_type: Book (Paperback)
+  description: |
+    <p>
+      A paperback bound edition of the Factory Service Manual, Engine Mechanical
+      for the ZN6 / ZC6 for the 2013 to 2020 Scion FR-S, Toyota 86, and Subaru BRZ.
+    </p>
+  features:
+    - key: Title
+      value: ZN6 ZC6 Factory Service Manual Engine Mechanical
+    - key: Release
+      value: December 2022
+    - key: Format
+      value: Paperback
+    - key: Size
+      value: US Letter (8.5x11 inches)
+    - key: Pages
+      value: 143
+    - key: Edition
+      value: First
+    - key: Print run
+      value: 10 copies
+    - key: Shipping
+      value: "US domestic orders ship within 72H of your order / International orders may be charged separately up to $25"
+
 UW010102:
   name: "The Society of the Spectacle"
   sku: "UW010102"
