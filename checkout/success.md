@@ -5,8 +5,8 @@ sitemap: false
 ---
 
 
-### for participating in capitalism.
+### Success
 
-The order was completed; successfully, in fact.
+The order was completed successfully, thank you!
 
-Now go away: [home](/).
+[home](/).
