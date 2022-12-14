@@ -16,7 +16,7 @@ excerpt: >
 
 {% for item in site.data.catalog %}
   {% assign sku = item[1].sku %}
-  {% unless !sku.hidden %}
+  {% unless item[1].hidden %}
     <h2 class="text-gradient">
       <a href="{{ item[1].url }}">{{ item[1].name }}</a>
     </h2>
