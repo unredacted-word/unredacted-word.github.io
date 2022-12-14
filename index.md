@@ -16,10 +16,13 @@ excerpt: >
 
 {% for item in site.data.catalog %}
   {% assign sku = item[1].sku %}
-  {% if item[1].hidden != true %}
-    <h2 class="text-gradient">
+  <h2 class="text-gradient">
+    {% if item[1].hidden != true %}
       <a href="{{ item[1].url }}">{{ item[1].name }}</a>
-    </h2>
+    {% endif %}
+  </h2>
+  
+  {% if item[1].hidden != true %}
     {% include product-table.html sku=sku showFeatures="False" %}
   {% endif %}
 {% endfor %}
