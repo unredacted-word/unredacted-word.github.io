@@ -3,7 +3,7 @@ layout: default
 bodyClass: page-home
 title: Unredacted Word
 displayTitle: " "
-excerpt: > 
+excerpt: >
   Unredacted Word: publisher of words, code & data. Our new edition of The Society of the Spectacle is out now 💥.
 ---
 
@@ -14,15 +14,15 @@ excerpt: >
   </p>
 </div>
 
-
 {% for item in site.data.catalog %}
-  {% assign sku = item[1].sku %}
-  <h2 class="text-gradient">
-    <a href="{{ item[1].url }}">{{ item[1].name }}</a>
-  </h2>
-  {% include product-table.html sku=sku showFeatures="False" %}
+{% unless sku.hidden %}
+{% assign sku = item[1].sku %}
+<h2 class="text-gradient">
+<a href="{{ item[1].url }}">{{ item[1].name }}</a>
+</h2>
+{% include product-table.html sku=sku showFeatures="False" %}
+{% endunless %}
 {% endfor %}
-
 
 ## Sales
 
