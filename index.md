@@ -16,10 +16,12 @@ excerpt: >
 
 {% for item in site.data.catalog %}
   {% assign sku = item[1].sku %}
-  <h2>
-    <a href="{{ item[1].url }}">{{ item[1].name }}</a>
-  </h2>
-  {% include product-table.html sku=sku showFeatures="False" %}
+  {% unless sku.hidden %}
+    <h2 class="text-gradient">
+      <a href="{{ item[1].url }}">{{ item[1].name }}</a>
+    </h2>
+    {% include product-table.html sku=sku showFeatures="False" %}
+  {% endunless %}
 {% endfor %}
 
 ## Sales
