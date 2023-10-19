@@ -54,9 +54,9 @@ like-minded Others.
 
 <ol class="masthead">
   <li>
-    Julian A.
+    Ron Adams
     <p>
-      Co-founder &amp; Publisher, Editor
+      Co-founder &amp; Publisher, Author, Editor
     </p>
   </li>
   <li>
