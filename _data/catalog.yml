@@ -1,3 +1,85 @@
+UW010601:
+  name: "The Society of the Spectacle"
+  sku: "UW010601"
+  url: "/catalog/uw010601-spectacle"
+  external_sku: sku_JCmkFFh767juPU
+  date: 2023-11-15 21:00:00
+  quantity: 1
+  price: false
+  image:
+    src: /static/catalog/uw010601/00.jpg
+    alt: Cover of The Society of the Spectacle
+  product_type: Book (Paperback)
+  description: |
+    <p>
+      The US trade paperback edition of our new translation of Debord's
+      <em>The Society of the Spectacle</em>.
+    </p>
+    <p>
+      Debord describes and critiques the way we live. The power in these ideas
+      lies in their ability to question, identify, and name the common
+      assumptions of the present. Developing the concept of The Spectacle, he
+      describes the “gaze” of contemporary society. From its publication just
+      before, and ultimately influencing the May 1968 revolt in Paris and Occupy
+      Wall Street, this book continues to transform a wide range of progressive
+      philosophical and political movements, most notably anti-capitalism,
+      postmodernism, marxism, and anarchism.
+    </p>
+    <p>
+      This new translation brings a concrete edge to the text, elaborating upon
+      the original, and adding annotations. Bringing fifty years of prominent
+      radical thinking back to the text, from Baudrillard to Odell to
+      Zuboff—it’s clear that Debord’s book is more relevant in the era of social
+      media, the attention economy, and the emergence of Surveillance Capitalism
+      than ever before.
+    </p>
+    <div style="margin:4rem 0">
+      <a class="book-container" href="https://unredacted-word.pub/spectacle">
+        <div class="book">
+          <img alt="The Society of the Spectacle by Guy Debord" src="/static/catalog/uw010601/cover.png" />
+        </div>
+      </a>
+    </div>
+    <p>
+      A new revised English edition by Ron. Adams.
+    </p>
+    <p>
+      <a href="https://www.amazon.com/dp/1736961845" title="Amazon">
+        <img src="/static/retail-amazon.svg" height="64" alt="Amazon logo" />
+      </a>
+    </p>
+    <p>
+      <a class="buy-now" style="border-radius:0.25rem"
+        href="https://unredacted-word.pub/spectacle/">Look Inside</a>
+    </p>
+  features:
+    - key: Title (Original)
+      value: La Societé du Spectacle
+    - key: Author
+      value: Guy Debord
+    - key: Translator
+      value: "Ron. Adams"
+    - key: Release
+      value: November 2023
+    - key: Format
+      value: Paperback
+    - key: Size
+      value: US Trade (6x9 inches)
+    - key: Pages
+      value: 230
+    - key: Price
+      value: "$23.01"
+    - key: ISBN
+      value: "9781736961841"
+    - key: Edition
+      value: Second (2022)
+    - key: Rights
+      value: "Copyleft 🄯 2021 █ Unredacted Word, LLC, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+    - key: Amazon
+      value: |
+        <a class="buy-now" style="border-radius:0.25rem"
+          href="https://www.amazon.com/dp/1736961845">Buy at Amazon</a>
+
 UW010102:
   name: "The Society of the Spectacle"
   sku: "UW010102"
@@ -41,7 +123,7 @@ UW010102:
       </a>
     </div>
     <p>
-      A new an revised English edition by Ron. Adams.
+      A new revised English edition by Ron. Adams.
     </p>
     <p>
       <a class="buy-now" style="border-radius:0.25rem"
@@ -111,7 +193,7 @@ UW010301:
       than ever before.
     </p>
     <p>
-      A new English Edition by Ron. Adams.
+      A new revised English edition by Ron. Adams.
     </p>
     <p>
       <a class="buy-now" style="border-radius:0.25rem"
@@ -175,11 +257,11 @@ UW010501:
       than ever before.
     </p>
     <p>
-      A new English Edition by Ron. Adams.
+      A new revised English edition by Ron. Adams.
     </p>
     <p>
       <a href="https://www.amazon.com/dp/B092CDGWYZ" title="Amazon">
-        <img src="/static/retail-amazon.svg" height="64" alt="Amazon Kindle logo" />
+        <img src="/static/retail-amazon-kindle.svg" height="64" alt="Amazon Kindle logo" />
       </a>
     </p>
     <p>
