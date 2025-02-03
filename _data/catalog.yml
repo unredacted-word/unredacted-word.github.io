@@ -87,7 +87,7 @@ UW010102:
   external_sku: sku_JCmkFFh767juPU
   date: 2022-09-22 21:00:00
   quantity: 1
-  price: "$51.95"
+  price: false
   image:
     src: /static/catalog/uw010101/01.jpg
     alt: Cover of The Society of the Spectacle
@@ -150,6 +150,8 @@ UW010102:
       value: Second (2022)
     - key: Print run
       value: 50 copies
+    - key: Status
+      value: OUT OF PRINT
     - key: Dust Jacket design
       value: "0xADADA"
     - key: Rights
